@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#FFFCF2"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <!--圖片-->
+        <ImageView
+            android:id="@+id/coupon"
+            android:layout_width="250dp"
+            android:layout_height="150dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:textSize="20dp"
+            android:textStyle="bold"></ImageView>
+
+        <android.widget.Button
+            android:id="@+id/exchange"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="85dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/button_shape"
+            android:backgroundTint="@null"
+            android:text="兌換"></android.widget.Button>
+
+        <TextView
+            android:id="@+id/points"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="-125dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="10dp"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="20dp"></TextView>
+    </LinearLayout>
+
+</LinearLayout>
